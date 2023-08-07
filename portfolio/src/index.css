@@ -9,3 +9,21 @@
   }
 }
 
+@layer utilities {
+  .animate-scrolling-image {
+    background-image: url(./composants/images/cloud.png);
+    animation: scroll 30s linear infinite;
+    background-size: cover;
+  }
+}
+
+@keyframes scroll {
+  0%{
+    transform : translateX(-100%);
+  }
+  100%{
+    transform : translateX(100%);
+  }
+}
+
+
