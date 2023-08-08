@@ -3,6 +3,8 @@ import MyImage from '/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/com
 import Cloud from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/cloud.png";
 import Cloud2 from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/cloud2.png";
 import Cloud3 from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/cloud3.png";
+import Grey from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/grey.png";
+
 
 
 const MyComponent = () => {
@@ -12,6 +14,9 @@ const MyComponent = () => {
             <img className="absolute bottom-3 -left-96 w-11/12 h-5/6 cloud-animation opacity-80" src={Cloud} alt="animated clouds"/>
             <img className="absolute top-0 -right-20 w-2/3 h-2/4 cloud-animation opacity-80" src={Cloud2} alt="animated cloud"/>
             <img className="absolute bottom-20 -right-20 w-1/3 h-2/5 cloud-animation opacity-70" src={Cloud3} alt="animated cloud2"/>
+            <img className="absolute inset-1/3 left-1/3 w-2/5 h-2/5 opacity-60 rounded-2xl" src={Grey} alt="grey"></img>
+            <p className="absolute inset-1/3">Margot Huet</p>
+               
         </div>
     );
   };
