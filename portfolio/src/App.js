@@ -1,6 +1,8 @@
-import Accueil from "./composants/accueil.jsx"
+import Accueil from "./composants/accueil.jsx";
 import Presentation from "./composants/presentation.jsx";
-import Button from "./composants/button"
+import Projets from "./composants/projets.jsx";
+import Contact from "./composants/contact.jsx";
+import Footer from "./composants/footer.jsx";
 import React from "react";
 import "./index.css";
 
@@ -9,7 +11,9 @@ function App() {
     <div>
       <Accueil />
       <Presentation />
-      <Button />
+      <Projets />
+      <Contact />
+      <Footer />
     </div>
   )
 }
