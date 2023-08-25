@@ -4,7 +4,8 @@ import Projets from "./composants/projets.jsx";
 import Contact from "./composants/contact.jsx";
 import Footer from "./composants/footer.jsx";
 import React from "react";
-import "./index.css";
+import ".//accueil.css";
+import ".//presentation.css";
 
 function App() {
   return (
