@@ -1,47 +1,45 @@
 * {
     margin: auto;
-    padding: auto;
+    overflow-x: clip;
 }
 
-.title {
+.landing-page {
+    background: url('../src/composants/images/backgroundportfolio2.png');
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.landing-page cloud {
+    position: relative;
+    height: 25rem;
+}
+
+.landing-page cloud2 {
+    position: relative;
+    height: 25rem;
+    background-color: blue;
+}
+
+.landing-page cloud3 {
+    position: relative;
+    height: 25rem;
+    background-color: blue;
+}
+
+.landing-page greyBox {
+    position: relative;
+    background-color: yellow;
+}
+
+.landing-page title {
     font-size: 60px;
     color: red;
 }
 
-.banner {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-button {
+.landing-page button {
     position: relative;
     color:blueviolet;
 }
 
-.cloud {
-    position: relative;
-    height: 25rem;
-    margin-top: 26%;
-}
-
-.cloud2 {
-    position: relative;
-    height: 25rem;
-    top: 10rem;
-    left: 45rem;
-    background-color: blue;
-}
-
-.cloud3 {
-    position: relative;
-    height: 25rem;
-    background-color: blue;
-}
-
-.greyBox {
-    position: relative;
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
-}
