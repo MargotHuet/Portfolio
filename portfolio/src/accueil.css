@@ -5,28 +5,34 @@
 
 .landing-page {
     background: url('../src/composants/images/backgroundportfolio2.png');
-    background-color: orange;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     height: 100vh;
+    margin-right: 2rem;
 }
 
-.landing-page cloud {
+.set-of-clouds {
     position: relative;
-    height: 25rem;
+    top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    height: 78rem;
+    animation: bounce 5s ease infinite ;
+
 }
 
-.landing-page cloud2 {
-    position: relative;
-    height: 25rem;
-    background-color: blue;
-}
-
-.landing-page cloud3 {
-    position: relative;
-    height: 25rem;
-    background-color: blue;
-}
+@keyframes bounce {
+    0%{
+      transform : translateY(15px);
+    }
+    20% {
+      transform: translate(20px);
+    }
+    100% {
+      transform : translateY(30px);
+    }
+  }
+  
 
 .landing-page greyBox {
     position: relative;
