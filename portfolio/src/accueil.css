@@ -13,30 +13,34 @@
 
 .set-of-clouds {
     position: relative;
-    top: 2rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    height: 78rem;
-    animation: bounce 5s ease infinite ;
-
+    top: -5rem;
+    margin-left: -2rem;
+    height: 110%;
+    width: 110%;
+    animation: bounce 15s ease infinite ;
 }
 
 @keyframes bounce {
-    0%{
-      transform : translateY(15px);
+    0% {
+        transform: translateY(0%);
     }
-    20% {
-      transform: translate(20px);
+    50% {
+      transform : translateY(5%);
     }
     100% {
-      transform : translateY(30px);
+      transform : translateY(0%);
     }
   }
   
 
-.landing-page greyBox {
+.white-container {
     position: relative;
-    background-color: yellow;
+    top: -650px;
+    margin-left: 23rem;
+    height: 40vh;
+    width: 80vh;
+    border-radius: 20px;
+    opacity: 0.80;
 }
 
 .landing-page title {
