@@ -1,15 +1,31 @@
-.containerProject {
-    background-color: rgb(255, 255, 255);
-    height: 100vh; 
+* {
+    margin: auto;
 }
 
-img {
+.containerProject {
+    background-color: rgb(255, 255, 255);
+    height: 120vh; 
+   
+}
+
+.title-project {
+    font-size: 3em;
+    width: 35vw;
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.zoom {
     height: 20rem;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30% 6%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .img-wrapper {
@@ -35,23 +51,27 @@ img {
     align-items: center;
 }
 
-.img-wrapper > img, 
+.img-wrapper > .zoom, 
 .img-wrapper > .content {
     transition: 200ms ease-in-out;
 }
 
-.img-wrapper:hover > img.blur {
+.img-wrapper:hover > .zoom.blur {
     filter: blur(5px);
 }
 
-.img-wrapper:hover > img.zoom {
+.img-wrapper:hover > .zoom.grey {
+    filter: grayscale(0.7);
+}
+
+.img-wrapper:hover > .zoom.zoom {
     transform: scale(1.1);
 }
 
-.img-wrapper > .content.fade{
+.img-wrapper > .content.fade {
     opacity: 0;
 }
 
-.img-wrapper:hover .content.fade {
+.img-wrapper:hover > .content.fade {
     opacity: 1;
 }

@@ -1,3 +1,7 @@
+* {
+    margin: auto;
+}
+
 .portrait {
     height: 19rem;
     width: 13rem;

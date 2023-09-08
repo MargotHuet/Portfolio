@@ -6,18 +6,30 @@ import Image3 from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/comp
 const Projets = () => {
     return (
         <div className="containerProject" id="projects">
-            <h1>Projets</h1>
+            <h1 className="title-project">Mes projets</h1>
             <div className="grid">
                 <div className="img-wrapper">
-                        <img className="zoom blur" src={FacialRAI} alt="illustration de reconnaissnce faciale"></img>
+                        <img className="zoom blur grey" src={FacialRAI} alt="illustration de reconnaissnce faciale"></img>
                             <div className="content fade">Reconnaissance faciale</div>
                 </div>    
                 <div className="img-wrapper">
-                        <img className="zoom blur" src={Image2} alt="illustration du projet Madame KYMG"></img>
+                        <img className="zoom blur grey" src={Image2} alt="illustration du projet Madame KYMG"></img>
                             <div className="content fade">LOREM IPSUME DELOR SIRT AMET</div>
                 </div>
                 <div className="img-wrapper">
-                        <img className="zoom blur" src={Image3} alt="illustration du projet Ecotopia"></img>
+                        <img className="zoom blur grey" src={Image3} alt="illustration du projet Ecotopia"></img>
+                            <div className="content fade">LOREM IPSUME DELOR SIRT AMET</div>
+                </div>
+                <div className="img-wrapper">
+                        <img className="zoom blur grey" src={Image3} alt="illustration du projet Ecotopia"></img>
+                            <div className="content fade">LOREM IPSUME DELOR SIRT AMET</div>
+                </div>
+                <div className="img-wrapper">
+                        <img className="zoom blur grey" src={Image3} alt="illustration du projet Ecotopia"></img>
+                            <div className="content fade">LOREM IPSUME DELOR SIRT AMET</div>
+                </div>
+                <div className="img-wrapper">
+                        <img className="zoom blur grey" src={Image3} alt="illustration du projet Ecotopia"></img>
                             <div className="content fade">LOREM IPSUME DELOR SIRT AMET</div>
                 </div>
             </div>

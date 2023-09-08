@@ -20,6 +20,9 @@ const Presentation = () => {
             <div className="div4">
                 <img className="signature" src={Signature} alt="signature" />
             </div>
+            <div className="div5">
+                <p> mes stacks: Python3 react JupyterNotebook, pandas, numpy, matplotlib, html, css, javascript, sql, php, tailwind (images)</p>
+            </div>
             <div className="next-section"> 
                 <TfiAngleDown />  
             </div>

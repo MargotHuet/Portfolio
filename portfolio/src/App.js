@@ -7,6 +7,8 @@ import React from "react";
 import ".//accueil.css";
 import ".//presentation.css";
 import ".//projets.css";
+import ".//contact.css";
+import ".//footer.css";
 
 
 function App() {

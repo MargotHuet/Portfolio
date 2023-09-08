@@ -1,8 +1,6 @@
 import React from "react";
 import White from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/white.png";
 import Clouds from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/cloudsset.png";
-import Presentation from "./presentation";
-import Projets from "./projets";
 
 const MyComponent = () => {
 
