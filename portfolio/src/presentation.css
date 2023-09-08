@@ -1,4 +1,94 @@
 .portrait {
-    height: 100px;
-    width: 100px;
+    height: 19rem;
+    width: 13rem;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 4rem;
+    margin-bottom: 6rem; 
+}
+
+.signature {
+    height: 7rem;
+    width: 12rem;
+    margin-right: 5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: rgba(126, 186, 232, 0.568);
+    margin-top: 8%;
+    height: 80vh;
+}
+
+.div1 { 
+    grid-area: 1 / 1 / 2 / 2;
+    margin-left: 5rem;
+}
+
+.div2 { 
+    grid-area: 3 / 1 / 2 / 4;
+    margin-left: 5rem;
+}
+
+.div3 { 
+    grid-area: 4 / 4 / 1 / 4;
+}
+
+.div4 { 
+    grid-area: 4 / 4 / 3 / 4;
+}
+
+.btn-contact {
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(20, 45, 206, 0.2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn-contact:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(2px, 4px, 0);
+}
+
+.btn-contact:focus {
+    box-shadow: rgba(19, 105, 226, 0.3) 2px 8px 4px -6px;
+}
+
+.title-presentation {
+    font-size: 3em;
+    width: 35vw;
+}
+
+.text-presentation {
+    font-size: 1.5em;
+    text-align: justify;
+    padding-right: 3em;
+}
+
+#TfiAngleDown {
+    height: 10rem;
+    width: 10rem;
 }

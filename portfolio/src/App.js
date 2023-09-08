@@ -6,6 +6,8 @@ import Footer from "./composants/footer.jsx";
 import React from "react";
 import ".//accueil.css";
 import ".//presentation.css";
+import ".//projets.css";
+
 
 function App() {
   return (
