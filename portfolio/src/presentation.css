@@ -19,9 +19,10 @@
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr repeat(3, 1fr);
     background-color: rgba(126, 186, 232, 0.568);
     margin-top: 8%;
+    padding-top: 4%;
     height: 80vh;
 }
 
@@ -41,6 +42,16 @@
 
 .div4 { 
     grid-area: 4 / 4 / 3 / 4;
+}
+
+.div5 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.div6 {
+    grid-area: 4 / 2 / 5 / 2;
+    font-size: 40px;
+    margin-right: 50%;
 }
 
 .btn-contact {
@@ -92,7 +103,3 @@
     padding-right: 3em;
 }
 
-#TfiAngleDown {
-    height: 10rem;
-    width: 10rem;
-}
