@@ -2,6 +2,8 @@ import React from "react";
 import FacialRAI from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/facial_recognisation_illustration.webp";
 import TextAnalysis from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/analyse-texte.jpg";
 import Ampelos from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/Ampelos.png";
+import { TfiAngleDown } from "react-icons/tfi";
+
 
 const Projets = () => {
     return (
@@ -33,6 +35,9 @@ const Projets = () => {
                             <div className="content fade">LOREM IPSUME DELOR SIRT AMET</div>
                 </div>
             </div>
+            <div className="arrowNextSection">
+                    <TfiAngleDown />  
+                </div>
         </div>
     )
 }

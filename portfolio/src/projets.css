@@ -76,3 +76,13 @@
 .img-wrapper:hover > .content.fade {
     opacity: 1;
 }
+
+.arrowNextSection {
+    font-size: 40px;
+    margin-right: 10%;
+    animation: bounceArrow 2s ease-in-out infinite; 
+}
+
+.containerProject > .arrowNextSection {
+    position: absolute;
+}
