@@ -2,6 +2,18 @@
     margin: auto;
 }
 
+@keyframes bounce {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+      transform : translateY(25%);
+    }
+    100% {
+      transform : translateY(0%);
+    }
+  }
+
 .portrait {
     height: 19rem;
     width: 13rem;
@@ -52,6 +64,7 @@
     grid-area: 4 / 2 / 5 / 2;
     font-size: 40px;
     margin-right: 50%;
+    animation: bounce 2s ease-in-out infinite; 
 }
 
 .btn-contact {
@@ -98,6 +111,7 @@
 }
 
 .text-presentation {
+    color: grey;
     font-size: 1.5em;
     text-align: justify;
     padding-right: 3em;

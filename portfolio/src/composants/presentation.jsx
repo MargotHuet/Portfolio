@@ -5,6 +5,14 @@ import { TfiAngleDown } from "react-icons/tfi";
 
 
 const Presentation = () => {
+
+    const scrollToProjects = () => {
+        const projectSection = document.getElementById('projects');
+        if (projectSection) {
+            projectSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         
         <div className="container" id="container">
@@ -23,7 +31,7 @@ const Presentation = () => {
             <div className="div5">
                 <p> mes stacks: Python3 reactJS, Google collab, pandas, numpy, matplotlib, html, css, javascript, sql, php, tailwind (images)</p>
             </div>
-            <div className="div6"> 
+            <div className="div6" onClick={scrollToProjects}> 
                 <TfiAngleDown />  
             </div>
         </div>

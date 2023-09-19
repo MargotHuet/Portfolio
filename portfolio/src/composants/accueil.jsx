@@ -2,6 +2,7 @@ import React from "react";
 import White from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/white.png";
 import Clouds from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/cloudsset.png";
 
+
 const MyComponent = () => {
 
     // Fonction pour faire défiler la page vers la section "presentation"
