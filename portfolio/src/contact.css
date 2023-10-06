@@ -1,9 +1,201 @@
 .container-contact {
+    width: 70rem;
+    background: #F8F9FD;
+    background: linear-gradient(0deg, #76ACC6 0%, #B3E6F7 50%, #f0f8ff 75%);
+    border-radius: 4em;
+    padding: 25px 35px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+    margin-left: auto;
+    margin-right:auto;
     height: 80vh;
-    background-color:blueviolet;
+}
+  
+.title-contact {
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(16, 137, 211);
+}
+  
+.form {
+    margin-top: 20px;
 }
 
-.title-contact {
-    font-size: 3em;
-    width: 35vw;
+.form .nom-input {
+  margin-right: 30px;
+  width: 20%;
+  background: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 3.5rem;
+  box-shadow: #76ACC6 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
 }
+
+.form .nom-input::-moz-placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .nom-input::placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .nom-input:focus {
+  outline: none;
+  border-inline: 2px solid #12B1D1;
+}
+
+.form .prenom-input {
+  margin-left: 30px;
+  width: 20%;
+  background: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: #76ACC6 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
+}
+
+.form .prenom-input::-moz-placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .prenom-input::placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .prenom-input:focus {
+  outline: none;
+  border-inline: 2px solid #12B1D1;
+}
+
+.form .email-input {
+  margin-left: 30px;
+  border-color: #76ACC6 ;
+  width: 28%;
+  background: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: #76ACC6 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
+}
+
+.form .email-input::-moz-placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .email-input::placeholder {
+  color: rgb(170, 170, 170);
+}
+
+.form .email-input:focus {
+  outline: none;
+  border-inline: 2px solid #12B1D1;
+}
+
+.form .message-input {
+    width: 92%;
+    height: 6rem;
+    background: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 4rem;
+    box-shadow: #76ACC6 0px 10px 10px -5px;
+    border-inline: 2px solid transparent;
+}
+  
+  .form .message-input::-moz-placeholder {
+    color: rgb(170, 170, 170);
+  }
+  
+  .form .message-input::placeholder {
+    color: rgb(170, 170, 170);
+  }
+  
+  .form .message-input:focus {
+    outline: none;
+    border-inline: 2px solid #12B1D1;
+  }
+
+  .form .submit-btn {
+    display: block;
+    width: 10%;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgb(16, 137, 211) 0%, rgb(18, 177, 209) 100%);
+    color: white;
+    padding-block: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form .submit-btn:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+  }
+  
+  .form .submit-btn:active {
+    transform: scale(0.95);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+  }
+  
+  .social-media-container {
+    margin-top: 25px;
+  }
+  
+  .social-media-container .title {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: rgb(170, 170, 170);
+  }
+  
+  .social-media-container .social-accounts {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.social-media-btn {
+    display: grid;
+    place-items: center;
+    background: #e3edf7;
+    padding: 1.4em;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0);
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  
+  .social-media-btn:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+            inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+            -0.5px -0.5px 0px rgba(255,255,255,1),
+            0.5px 0.5px 0px rgba(0,0,0,0.15),
+            0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.1);
+    transform: translateY(0.5em);
+  }
+  
+  .social-media-btn svg {
+    transition: transform 0.5s;
+  }
+  
+  .social-media-btn:hover svg {
+    transform: scale(0.9);
+    fill: #333333;
+  }
+  
+  

@@ -12,7 +12,7 @@ const Projets = () => {
             <div className="grid">
                 <div className="img-wrapper">
                         <img className="zoom blur grey" src={FacialRAI} alt="illustration de reconnaissnce faciale"></img>
-                            <div className="content fade">Reconnaissance faciale</div>
+                            <div className="content fade">Détection faciale</div>
                 </div>    
                 <div className="img-wrapper">
                         <img className="zoom blur grey" src={TextAnalysis} alt="illustration du projet Madame KYMG"></img>

@@ -1,4 +1,9 @@
 .container-footer {
-    height: 80vh;
-    background-color: darkcyan;
+    height: 20vh;
+    text-align: center;
+}
+
+.p1 {
+    margin-bottom: 1rem;
+    margin-top: 7rem;
 }
