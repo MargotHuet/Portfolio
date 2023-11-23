@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-/static/css/main.c42b0363.css",
+    "main.js": "/portfolio-/static/js/main.60a1e494.js",
+    "static/media/PortalBlue.png": "/portfolio-/static/media/PortalBlue.4736dfa4895667a5711f.png",
+    "static/media/DSC_7733.jpg": "/portfolio-/static/media/DSC_7733.1bef2c60d2e8ac8603ee.jpg",
+    "index.html": "/portfolio-/index.html",
+    "main.c42b0363.css.map": "/portfolio-/static/css/main.c42b0363.css.map",
+    "main.60a1e494.js.map": "/portfolio-/static/js/main.60a1e494.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c42b0363.css",
+    "static/js/main.60a1e494.js"
+  ]
+}
