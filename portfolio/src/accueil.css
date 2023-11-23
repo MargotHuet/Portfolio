@@ -4,71 +4,168 @@
 }
 
 .landing-page {
-    background: url('../src/composants/images/backgroundportfolio2.png');
+    background: url('../src/composants/images/PortalBlue.png');
     background-repeat: no-repeat;
-    background-size:cover;
-    height: 100vh;
+    background-size: cover;
+    height: 92vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
     margin-right: 2rem;
 }
-
-.set-of-clouds {
-    position: relative;
-    top: -5rem;
-    margin-left: -5rem;
-    height: 110%;
-    width: 110%;
-    animation: bounce 15s ease infinite ;
-}
-
-@keyframes bounce {
-    0% {
-        transform: translateY(0%);
-    }
-    50% {
-      transform : translateY(5%);
-    }
-    100% {
-      transform : translateY(0%);
-    }
-  }
   
-
-.white-container {
+h2 {
     position: relative;
-    top: -80vh;
-    margin-left: 23rem;
-    height: 40vh;
-    width: 80vh;
-    border-radius: 5vh;
-    opacity: 0.80;
-}
-
-.landing-page p {
-    top: -113vh;
-    margin-left: 38%;
-    position: relative;
+    top: 6rem;
     font-size: 4em;
     color: #41403e;
 }
 
-.buttons {
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-start;
-    top: -100vh;
-    width: 50%;
-    height: 30vh;
-    flex-direction: row;
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+.title1 {
+    text-align: center;
+    animation: 3s anim-lineUp ease-out;
+    font-family: 'Allura', cursive;
+    font-size: 6rem;
+    color:#fdf7ee;
 }
 
-.buttons button {
-    top: -90vh;
-    width: 40%;
-    height: 30%;
-    margin: 20px;
+.title2, span {
+    text-align: center;
+    animation: 4s anim-lineUp ease-out;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 8rem;
+    width: 65vw;
+    color:#fdf7ee;
+    line-height: 2rem;
+    letter-spacing: -8px;
+    word-spacing: 8px;
+}
+
+.pBorder1 {
+    position: relative;
+    animation: 5s anim-lineUp ease-out;
+    left: 10%;
+    top: 25%;
+    color:#fdf7ee;
+}
+
+.pBorder2 {
+    position: relative;
+    animation: 5s anim-lineUp ease-out;
+    left: 10%;
+    top: 55%;
+    color:#fdf7ee;
+}
+
+.vertical1 {
+    position: absolute;
+    animation: 5s anim-lineUp ease-out;
+    left: 35%;
+    top: 50%;
+    border-left: 1px solid #fdf7ee;
+    height: 25vh;
+    margin: 0 20px;
+}
+
+.vertical2 {
+    position: absolute;
+    animation: 5s anim-lineUp ease-out;
+    left: 61%;
+    top: 50%;
+    border-left: 1px solid #fdf7ee;
+    height: 25vh;
+    margin: 0 20px;
+}
+
+.titre-accueil-1 h2{ 
+    position:absolute;
+    font-family: 'Bodoni Moda', serif;
+    animation: 7s anim-lineUp ease-out;
+    top: 60%;
+    left: 17%;
+    bottom: 50%;
+    font-size: 1.5rem;
+    color:#fdf7ee;
+    gap:5rem;
+}
+
+.titre-accueil-2 h2{ 
+    position: absolute;
+    animation: 7s anim-lineUp ease-out;
+    font-family: 'Bodoni Moda', serif;  
+    top: 60%;
+    left: 43%;
+    font-size: 1.5rem;
+    color:#fdf7ee;
+}
+
+.titre-accueil-3 h2{ 
+    position: absolute;
+    animation: 7s anim-lineUp ease-out;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1.5rem;
+    top: 60%;
+    left: 68%;
+    color:#fdf7ee;
+}
+
+.bouton1 {
+    position: absolute;
+    animation: 8s anim-lineUp ease-out;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1rem;
+    top: 66%;
+    left: 72%;
+    border: none;
+    background: none;
+    color:#fdf7ee;
+}
+
+.bouton2 {
+    position: absolute;
+    animation: 9s anim-lineUp ease-out;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1rem;
+    top: 65%;
+    left: 47%;
+    border: none;
+    background: none;
+    color:#fdf7ee;
+}
+
+.bouton3 {
+    position: absolute;
+    animation: 10s anim-lineUp ease-out;
+    font-family: 'Bodoni Moda', serif;  
+    font-size: 1rem;
+    top: 65%;
+    left: 21%;
+    border: none;
+    background: none;
+    color:#fdf7ee
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #e9cfba !important;
 }
 
 .btn-presentation, .btn-projects {
@@ -110,3 +207,9 @@
 .btn-projects:focus {
     box-shadow: rgba(19, 105, 226, 0.3) 2px 8px 4px -6px;
   }
+
+@media screen and (min-width: 1000px) {
+    .titre-accueil-1 {
+        color: deeppink;
+    }
+}

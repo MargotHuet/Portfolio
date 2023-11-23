@@ -1,6 +1,4 @@
 import React from "react";
-import White from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/white.png";
-import Clouds from "/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/cloudsset.png";
 
 
 const MyComponent = () => {
@@ -21,22 +19,46 @@ const MyComponent = () => {
     };
 
     return (
+
         <div className="landing-page">
-            <img className="set-of-clouds" src={Clouds} alt="animated clouds"/>
-                <div className="white-container">
-                    <img className="whiteBox" src={White} alt="white box container"></img>
-                    <div className="buttons">
-                    <button className="btn-presentation" onClick={scrollToPresentation}>Présentation</button>
-                    <button className="btn-projects" onClick={scrollToProjects}>Mes projets</button>
+                <div>
+                    <h2 className="title1">Hi! I'm</h2>
                 </div>
+                <div>
+                    <h2 className="title2"><span>MARGOT HUET</span></h2>
                 </div>
-                    <p className="title">Margot Huet</p>
-               
+                <div className="pBorder1">
+                    <p>______________________________________________________________________________________________________________________________________</p>
+                </div>
+                <div>
+                    <p className="vertical1"></p>
+                </div>
+                <div>
+                    <p className="vertical2"></p>
+                </div>
+                <div className="pBorder2">
+                    <p>______________________________________________________________________________________________________________________________________</p>
+                </div>
+                <div className="titre-accueil-1">
+                    <h2>PRESENTATION</h2>
+                </div>
+                <div className="titre-accueil-2">
+                    <h2>WEB PROJECTS</h2>
+                </div>
+                <div className="titre-accueil-3">
+                    <h2>DATA/IA PROJECTS</h2>
+                </div>
+                <div className="boutons">
+                    <button className="bouton1" onClick={scrollToProjects}>Here →</button>
+                </div>                  
+                <div>
+                    <button className="bouton2" onClick={scrollToProjects}>Here →</button>
+                </div>  
+                <div>
+                    <button className="bouton3" onClick={scrollToPresentation}>Here →</button>
+                </div>
         </div>
     );
   };
-
-
-
 
 export default MyComponent; 

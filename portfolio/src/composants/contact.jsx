@@ -1,5 +1,7 @@
 import React, {useRef} from "react";
 import emailjs from '@emailjs/browser';
+import Portrait from '/Users/margothuet/Documents/Dev/Portfolio/portfolio/src/composants/images/DSC_7733.jpg';
+
 
 
 const Contact = () => {
@@ -20,12 +22,19 @@ const Contact = () => {
 
     return (
         <div>
-            <div className="container-contact">
+            <div className="container-contact" id="contact">
+                <div className="contact-header">
+                    <p>______________________________________________________________</p>
+                    <img className="portrait" src={Portrait} alt="portrait" />
+                    <p>______________________________________________________________</p>
+                </div>
                 <h1 className="title-contact">Contact</h1>
                 <form ref={form} onSubmit={sendEmail} class="form">
+                    <div className="small-inputs">
                     <input required={true} className="nom-input" type="text" name="from_name" id="nom-input" placeholder="Nom"/>
                     <input required={true} className="prenom-input" type="text" name="from_prenom" id="prenom-input" placeholder="Prénom"/>
                     <input required={true} className="email-input" type="email" name="from_email" id="email-input" placeholder="E-mail"/>
+                    </div>
                     <input required={true} className="message-input" type="text" name="message" id="message-input" placeholder="Message..."/>
                     <input className="submit-btn" type="submit" value="Envoyer" minLength={10} maxLength="300" />
                 </form>
