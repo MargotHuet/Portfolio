@@ -47,11 +47,13 @@ const Presentation = () => {
                 <br></br>
                 <br></br>
                     <li>PHP</li>
+                    <li>NodeJS</li>
                     <li>Python</li>
-                    <li>React JS</li>
+                    <li>FastAPI</li>
+                    <li>JavaScript</li>
                     <li>Tailwind</li>
                     <li>Html CSS</li>
-                    <li>JavaScript</li>
+                    <li>React JS</li>
                     <li>React Native</li>
             </div>
             <div>
@@ -68,9 +70,12 @@ const Presentation = () => {
                 <br></br>
                 <br></br>
                     <li>SQL</li>
+                    <li>Supabase</li>
                     <li>Pandas</li>
                     <li>Numpy</li>
                     <li>Matplotlib</li>
+                    <li>TensorFlow Keras</li>
+                    <li>Scikit Learn</li>
                     <li>Google Colab</li>
                     <li>Jupyter Notebook</li>
             </div>
