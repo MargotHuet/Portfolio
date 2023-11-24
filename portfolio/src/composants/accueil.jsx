@@ -18,6 +18,13 @@ const MyComponent = () => {
         }
     };
 
+    const scrollToDataProjects = () => {
+        const dataProjectSection = document.getElementById('data-projects');
+        if (dataProjectSection) {
+            dataProjectSection.scrollIntoView({ behavior: 'smooth'});
+        }
+    };
+
     return (
 
         <div className="landing-page">
@@ -49,7 +56,7 @@ const MyComponent = () => {
                     <h2>DATA/IA PROJECTS</h2>
                 </div>
                 <div className="boutons">
-                    <button className="bouton1" onClick={scrollToProjects}>Here →</button>
+                    <button className="bouton1" onClick={scrollToDataProjects}>Here →</button>
                 </div>                  
                 <div>
                     <button className="bouton2" onClick={scrollToProjects}>Here →</button>

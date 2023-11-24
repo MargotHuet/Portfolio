@@ -66,7 +66,7 @@ const Projets = () => {
 	        </div>
             </div>
                 
-            <h1 className="title-project">Data/AI projects</h1>
+            <h1 className="title-project" id="data-projects">Data/AI projects</h1>
             <br></br>
             <div class="grid">
             <div class="card">
