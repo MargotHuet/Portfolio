@@ -18,11 +18,11 @@ const Projets = () => {
                         <FaUsers />
                     </div>
 		            <div class="text">
-			            <h1 class="project-title">Social network</h1>
-			            <p class="subtitle">Made with PHP, MySQL database, HTML and CSS</p>
+			            <h1 class="project-title">Ampelos Web App</h1>
+			            <p class="subtitle">Made with FastAPI. Project that uses Ampelos CNN Model</p>
 		            </div>
 		        <div class="icons">
-			        <a class="btn" href="https://github.com/MargotHuet/reseau-social-php">
+			        <a class="btn" target="_blank" rel="noreferrer" href="https://github.com/MargotHuet/Ampelos-CNN-model">
 				        <DiGithubBadge />
 			        </a>
 			        <a class="btn" href="#">
@@ -39,7 +39,7 @@ const Projets = () => {
 			            <p class="subtitle">Website made with NodeJS, Supabase, ExpressJS, ReactJS, HTML and CSS.</p>
 		            </div>
 		        <div class="icons">
-			        <a class="btn" href="https://github.com/MargotHuet/Ikeada-website">
+			        <a class="btn" target="_blank" rel="noreferrer" href="https://github.com/MargotHuet/Ikeada-website">
 				        <DiGithubBadge />
 			        </a>
 			        <a class="btn" href="#">
@@ -52,11 +52,11 @@ const Projets = () => {
                         <GiVineLeaf />
                     </div>
 		            <div class="text">
-			            <h1 class="project-title">Ampelos WebApp</h1>
-			            <p class="subtitle">Made with FastAPI. Project that uses Ampelos CNN Model</p>
+			            <h1 class="project-title">Social Network</h1>
+			            <p class="subtitle">Made with PHP, SQL, MySQL, Javascript, HTML and CSS</p>
 		            </div>
 		        <div class="icons">
-			        <a class="btn" href="https://github.com/MargotHuet/Ampelos-CNN-model/tree/master">
+			        <a class="btn" target="_blank" rel="noreferrer" href="https://github.com/MargotHuet/reseau-social-php">
 				        <DiGithubBadge />
 			        </a>
 			        <a class="btn" href="#">
@@ -78,7 +78,7 @@ const Projets = () => {
 			            <p class="subtitle">CNN Model</p>
 		            </div>
 		        <div class="icons">
-			        <a class="btn" href="https://github.com/MargotHuet/Ampelos-CNN-model/blob/master/Ampelos.ipynb">
+			        <a class="btn" target="_blank" rel="noreferrer" href="https://github.com/MargotHuet/Ampelos-CNN-model/blob/master/Ampelos.ipynb">
 				        <DiGithubBadge />
 			        </a>
 			        <a class="btn" href="#">
@@ -95,7 +95,7 @@ const Projets = () => {
 			            <p class="subtitle">Analysis tool that helps understanding user's feelings.</p>
 		            </div>
 		        <div class="icons">
-			        <a class="btn" href="https://github.com/MargotHuet/Text_analysis">
+			        <a class="btn" target="_blank" rel="noreferrer" href="https://github.com/MargotHuet/Text_analysis">
 				        <DiGithubBadge />
 			        </a>
 			        <a class="btn" href="#">
@@ -112,7 +112,7 @@ const Projets = () => {
 			            <p class="subtitle">Program that uses Haar Casscade Classifier</p>
 		            </div>
 		        <div class="icons">
-			        <a class="btn" href="https://github.com/MargotHuet/Face_detection_app">
+			        <a class="btn" target="_blank" rel="noreferrer" href="https://github.com/MargotHuet/Face_detection_app">
 				        <DiGithubBadge />
 			        </a>
 			        <a class="btn" href="#">

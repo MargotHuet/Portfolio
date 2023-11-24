@@ -44,18 +44,20 @@
 }
     
 .container .section-left { 
-    margin-top: 6rem;
+    margin-top: 4rem;
     flex: 10;
 }
     
 .container .section-left  h1{
     font-size: 3em;
     margin-left: 40%;
+    margin-top: -40px;
+    padding: 3%;
 }
     
 .container .section-left p {
     margin-top: 25px;
-    line-height: 20px;
+    line-height: 30px;
     font-size: 1.2em;
     text-align: justify;
     justify-content: center;

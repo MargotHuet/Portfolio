@@ -29,7 +29,8 @@ const Presentation = () => {
         <div className="container" id="container">
             <div className="section-left">
                     <h1>A propos de moi</h1>
-                    <p>Je suis une étudiante passionnée d'intelligences artificielles à la recherche d'une alternance dans le domaine du développement. Mes compétences techniques me permettent de mener à bien des projets d'IA de A à Z. Je suis avide d'apprendre et désireuse de contribuer activement au succès de votre entreprise. Merci pour l'opportunité que vous me donnerez de faire partie de votre équipe.</p>
+                    <p className="">Actuellement étudiante en développement web, je me spécialise dans le développement Backend et la Data. Je suis portée sur les sujets de Data Science que j'étudie en parallèle de ma formation. 
+                        Mes compétences techniques me permettent de mener à bien des projets en mode agile. Je suis avide d'apprendre et désireuse de contribuer à des projets ambitieux et stimulants.</p>
             </div>
             <div className="section-right">
                 <img className="signature" src={Signature} alt="signature" />
